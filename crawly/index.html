@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> Initial commit </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/icons.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   </head>
+
   <body>
     <div class="quarter-container">
+      <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" width="45" height="45" class="d-inline-block" alt="">
@@ -45,5 +51,64 @@
         </div>
       </nav>
     </div>
+      <!-- Main landing -->
+    <div class="container">
+      <div class="row">
+        <div class="col-6 landing-content">
+          <h3 class="title"> Control your broken <i class="typed"></i><br>
+          with confidence in a better way. </h3>
+          <h5 class="sub-title landing-subtitle"> Control the broken pages of your application to be sure they are working as charmed. </h5>
+          <div class="email-input-wrapper">
+            <input type="text" placeholder="Enter your email" class="email-input"><button class="email-btn">Get Started</button>
+          </div>
+        </div>
+        <div class="col-6 landing-content">
+          <img src="images/landing.png" class="img img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row offer">
+        <div class="col-4">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fa fa-link"></i>
+            </div>
+            <div class="content">
+              <p class="title">Internal & External URLs</p>
+              <p class="sub-title">Crawly controls both internal and external broken urls of your application with confidence. </p>
+              <button class="more"> Learn more </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fa fa-list-alt"></i>
+            </div>
+            <div class="content">
+              <p class="title">Missing Resources</p>
+              <p class="sub-title">You can fully control your resources such as CSS, JS, Images, Videos of your website. </p>
+              <button class="more"> Learn more </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fa fa-book"></i>
+            </div>
+            <div class="content">
+              <p class="title">Certificate Health</p>
+              <p class="sub-title">Be awere of your Certificate Health of your web application with Crawly in better way. </p>
+              <button class="more"> Learn more </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>

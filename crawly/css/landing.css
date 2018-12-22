@@ -1,0 +1,41 @@
+
+.landing-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 4rem 0;
+}
+
+.landing-subtitle {
+  line-height: 30px;
+}
+
+.landing-content * {
+  margin: 10px 0;
+}
+
+.email-input-wrapper{
+  display: block;
+}
+
+.email-input {
+  width: 65%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.email-input::placeholder {
+  opacity: 0.3;
+}
+
+.email-btn {
+  min-width: 20%;
+  padding: 6px 10px;
+  background: #B544AD;
+  border: 0;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

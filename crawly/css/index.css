@@ -1,3 +1,52 @@
 .quarter-container {
-  margin: 0 18%;
+  margin: 0 20rem;
+}
+
+.typed {
+  color: #B544AD;
+  font-style: normal;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.sub-title {
+  color: rgba(100, 100, 100, 1);
+  font-size: 96%;
+}
+
+.offer {
+  margin-top: 5rem;
+}
+
+.card {
+  padding: 20px 10px 20px 20px;
+  flex-direction: row;
+  align-items: stretch;
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.15);
+}
+
+.more {
+  border: none;
+  background: #FFF;
+  color: #B544AD;
+  font-weight: bold;
+  font-size: 96%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  padding-right: 15px;
 }
