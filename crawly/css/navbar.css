@@ -1,0 +1,21 @@
+.navbar * {
+  font-size: 99%;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.navbar .nav-link {
+  padding: 0 10px !important;
+}
+
+.navbar-btn {
+  background: #B544AD;
+  padding: 5px 20px;
+  margin: 0 0 0 20px;
+  border-radius: 20000px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.95);
+}
